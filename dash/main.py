@@ -9,7 +9,7 @@ from graphs import *
 app = Dash(__name__)
 TARGET_COLUMN = 'Capacidade de pagamento anual'
 
-df = pd.read_csv("../toplot/abc_houses_alll.csv")
+df = pd.read_csv("toplot/abc_houses_alll.csv")
 
 abc_curver_graph = abc_curve(df, TARGET_COLUMN+"_abc_class", [TARGET_COLUMN, "Dívida"], TARGET_COLUMN+"_porcentagem")
 
@@ -20,18 +20,18 @@ pie = abc_pie(df, TARGET_COLUMN+"_abc_class", TARGET_COLUMN)
 
 treemap_div = html.Div(children=[
     dcc.Graph(
-        id='example-graph2',
+        id='Treemap',
         figure=treemap_graph
     ),
 ])
 abc_curve_div = html.Div(children=[
     dcc.Graph(
-        id='example-graph3',
+        id='pie',
         figure=pie,
         style={'width': '800', 'display': 'inline-block'}
     ),
     dcc.Graph(
-            id='example-graph',
+            id='curve',
             figure=abc_curver_graph,
             style={'width': '800', 'display': 'inline-block'}
         ),
