@@ -17,8 +17,6 @@
 * toplot
     * abc_house_all.csv
         > Classificação de grupos ABC, para dividas e receita de cada aliança.
-    * abc_person_all.csv
-        > Classificação de grupos ABC, para dividas e receitas para cada pessoa.
 
 * main.py
     > Arquivo para o processamento dos dados
@@ -40,13 +38,8 @@
 ---
 ## considerações 
 
-Foi feito duas possíveis bases para plotagem, porém foi usada a que melhor se enquadra no problema a ser analisado. 
+A base para plotagem foi feita usando apenas as casas e o somatório de dividas e "recursos" de cada uma, sendo classificadas em ABC de acordo com o critério definido pelo problema, como o maior interesse foram os recursos de cada casa, esses foram usados no dashboard, entretanto pode ser facilmente trocado para dividas caso necessário. 
 
-
-A primeira base foi feita usando apenas as casas e o somatório de dividas e "recursos" de cada uma, sendo classificadas em ABC de acordo com o critério definido pelo problema, como o maior interesse foram os recursos de cada casa, esses foram usados no dashboard, entretanto pode ser facilmente trocado para dividas caso necessário. 
-
-
-Outra análise foi feita para cada pessoa unitariamente, este não foi usado para o dashboard, no entanto é possível fazer os mesmos gráficos para esta base sem muitas mudanças.
 
 
 Também foi adicionado uma nova opção de dashboard, usando dash, apenas por mais aprendizados.
