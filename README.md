@@ -8,7 +8,7 @@
 
 * original_db:
     * correntistas_banco_bravos_1.csv
-        > Base de dados fornecida com os corretistas
+        > Base de dados fornecida com os correntistas
     * correntistas_obito_1.csv
         > Base de dados fornecida com os obitos 
 
@@ -29,7 +29,8 @@
 
 ---
 ## considerações 
-    Foi feito dois possivel bases para plotagem porem usado apenas a que mais parece se enquadra no problema a ser analisado.
-    A primeira base foi feita usando só as casas e o somatorio de dividas e "recursos" de cada casa, e classificada em ABC de acordo com o criterio definido do problema, com o maior interesse foram os recursos de cada casas, esse foram usando no dash board, entretando é facilmente mudado para dividas caso precise.
+    Foi feito duas  possiveis bases para plotagem porem foi usado apenas a que mais parece se enquadrar no problema a ser analisado.
+
+    A primeira base foi feita usando só as casas e o somatorio de dividas e "recursos" de cada casa, e classificada em ABC de acordo com o criterio definido do problema, como maior interesse foram os recursos de cada casas, esse foram usando no dashboard, entretando pode facilmente ser trocado para dividas caso precise.
+
     Outra analise foi feita para cada pessoa unitariamente, este não foi usado para o dash, entretanto é possivel fazer mesmos graficos para esta base sem muitas mudanças.
-    
