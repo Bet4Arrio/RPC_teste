@@ -26,6 +26,8 @@
     - link de acesso: https://datastudio.google.com/s/uYbUxgcBVuQ
         > Dashboard feito pelo Google data studio
 
+- Python Dash:
+    > Uma outra opção não citada, que pode ser pensando, usando a propria lib do python, para a criação do dashboard, tendo como vantagem maior facilidade pra processamento de dados enquanto mostra.
 
 ---
 ## considerações 
@@ -35,6 +37,8 @@ Foi feito duas possíveis bases para plotagem, porém foi usada a que melhor se 
 
 A primeira base foi feita usando apenas as casas e o somatório de dividas e "recursos" de cada uma, sendo classificadas em ABC de acordo com o critério definido pelo problema, como o maior interesse foram os recursos de cada casa, esses foram usados no dashboard, entretanto pode ser facilmente trocado para dividas caso necessário. 
 
-  
 
 Outra análise foi feita para cada pessoa unitariamente, este não foi usado para o dashboard, no entanto é possível fazer os mesmos gráficos para esta base sem muitas mudanças.
+
+
+Também foi adicionado uma nova opção de dashboard, usando dash, apenas por mais aprendizados.
