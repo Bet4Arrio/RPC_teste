@@ -7,34 +7,57 @@
 ## Arquivos e pastas:
 
 
-
 * original_db:
+   
     * correntistas_banco_bravos_1.csv
+   
         > Base de dados fornecida com os correntistas
+   
     * correntistas_obito_1.csv
+   
         > Base de dados fornecida com os obitos 
 
 * toplot
+    
     * abc_house_all.csv
+    
         > Classificação de grupos ABC, para dividas e receita de cada aliança.
 
 * main.py
+   
     > Arquivo para o processamento dos dados
 
 * dash:
+   
     * main.py
+   
         > Para rodar o dashboar simples em python+Dash
 ---
 
 ## Soluções:
 
 - Data Studio:
+    
+    > Dashboard feito pelo Google data studio
+    
     - link de acesso: https://datastudio.google.com/s/uYbUxgcBVuQ
-        > Dashboard feito pelo Google data studio
 
 - Python Dash:
+    
     > Uma outra opção não citada, que pode ser pensando, usando a propria lib do python, para a criação do dashboard, tendo como vantagem maior facilidade pra processamento de dados enquanto mostra, este pode ser visto como caso de estudo
+    - como executar: 
+        
+        Para executar deve-se instalar as dependencis listadas no requirements.txt
+        ``` 
+            python -m pip install -r requirments.txt 
+        ```
 
+        Após as dependencias instaladas,
+        para executar o Dash pasta executar o main.py da pasta
+        
+        ```
+            python dash/main.py 
+        ```
 ---
 ## considerações 
 
@@ -43,3 +66,4 @@ A base para plotagem foi feita usando apenas as casas e o somatório de dividas 
 
 
 Também foi adicionado uma nova opção de dashboard, usando dash, apenas por mais aprendizados.
+
