@@ -35,7 +35,7 @@
         > Dashboard feito pelo Google data studio
 
 - Python Dash:
-    > Uma outra opção não citada, que pode ser pensando, usando a propria lib do python, para a criação do dashboard, tendo como vantagem maior facilidade pra processamento de dados enquanto mostra.
+    > Uma outra opção não citada, que pode ser pensando, usando a propria lib do python, para a criação do dashboard, tendo como vantagem maior facilidade pra processamento de dados enquanto mostra, este pode ser visto como caso de estudo
 
 ---
 ## considerações 
