@@ -6,6 +6,8 @@
 
 ## Arquivos e pastas:
 
+
+
 * original_db:
     * correntistas_banco_bravos_1.csv
         > Base de dados fornecida com os correntistas
@@ -18,6 +20,12 @@
     * abc_person_all.csv
         > Classificação de grupos ABC, para dividas e receitas para cada pessoa.
 
+* main.py
+    > Arquivo para o processamento dos dados
+
+* dash:
+    * main.py
+        > Para rodar o dashboar simples em python+Dash
 ---
 
 ## Soluções:
