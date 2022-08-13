@@ -29,8 +29,12 @@
 
 ---
 ## considerações 
-    Foi feito duas  possiveis bases para plotagem porem foi usado apenas a que mais parece se enquadrar no problema a ser analisado.
 
-    A primeira base foi feita usando só as casas e o somatorio de dividas e "recursos" de cada casa, e classificada em ABC de acordo com o criterio definido do problema, como maior interesse foram os recursos de cada casas, esse foram usando no dashboard, entretando pode facilmente ser trocado para dividas caso precise.
+Foi feito duas possíveis bases para plotagem, porém foi usada a que melhor se enquadra no problema a ser analisado. 
 
-    Outra analise foi feita para cada pessoa unitariamente, este não foi usado para o dash, entretanto é possivel fazer mesmos graficos para esta base sem muitas mudanças.
+
+A primeira base foi feita usando apenas as casas e o somatório de dividas e "recursos" de cada uma, sendo classificadas em ABC de acordo com o critério definido pelo problema, como o maior interesse foram os recursos de cada casa, esses foram usados no dashboard, entretanto pode ser facilmente trocado para dividas caso necessário. 
+
+  
+
+Outra análise foi feita para cada pessoa unitariamente, este não foi usado para o dashboard, no entanto é possível fazer os mesmos gráficos para esta base sem muitas mudanças.
